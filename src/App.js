@@ -3,12 +3,7 @@ import './App.css';
 import { MovieList } from './MovieList';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+import { Switch,Route,Link} from "react-router-dom";
 import { AddColor } from './ColorBox';
 import { Home } from './Home';
 function App() {
